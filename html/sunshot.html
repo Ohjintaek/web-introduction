@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset-"UTF-8">
+    <title>Sunshot 자기소개 페이지</title>
+    <link rel="stylesheet" href="../css/tablestyle.css">
+</head>
+<body>
+    <h2>자기소개</h2>
+    <img src="" alt="사진이 있을겁니다. 없음말구요">
+    <p>
+        <ul>
+            <li>이름 : <strong>썬샷</strong></li>
+            <li>사는 곳 : 왕십리</li>
+            <li>안녕하세요!! 저는 내일이 기대되는 개발자로 성장하고 싶은 썬샷입니다.</li>
+        </ul>
+    </p>
+    <div>
+        <hr>
+        <h2>인생 영화 BEST5</h2>
+        <table align="center" width="95%" height="auto">
+            <tr>
+                <th scope="col">순위</th>
+                <th scope="col">제목</th>
+                <th scope="col">포스터</th>
+                <th scope="col">한줄평</th>
+                <th scope="col">바로가기</th>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">다크나이트</td>
+                <td align="center"><img src="../images/dark knight.jfif" width="150"></td>
+                <td><p>연기, 연출, 스토리 모두 다 뛰어나서 정말 잘 만든 영화라고 생각했었다.</p>가장 기억에 남는 조커가 아닐까?</td>
+                <td align="center"><a href="https://ko.wikipedia.org/wiki/%EB%8B%A4%ED%81%AC_%EB%82%98%EC%9D%B4%ED%8A%B8" target="_blank">설명</a></td>
+            </tr>
+            <tr>
+                <td align="center">2</td>
+                <td align="center">신세계</td>
+                <td align="center"><img src="../images/new world.jfif" width="150"></td>
+                <td><p>한국형 느와르의 전형같은 느낌.</p>주제곡 Big Sleep을 듣다 보면 마치 영화에 들어간 것 같은 착각이 든다.</td>
+                <td align="center"><a href="https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%84%B8%EA%B3%84_(%EC%98%81%ED%99%94)" target="_blank">설명</a></td>
+            </tr>
+            <tr>
+                <td align="center">3</td>
+                <td align="center">세 얼간이</td>
+                <td align="center"><img src="../images/three idiots.jpg" width="150"></td>
+                <td><p>많은 사람들이 유일하게 본 인도 영화일 듯.</p>영화의 메시지와 분위기가 좋았다.</td>
+                <td align="center"><a href="https://ko.wikipedia.org/wiki/%EC%84%B8_%EC%96%BC%EA%B0%84%EC%9D%B4" target="_blank">설명</a></td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td align="center">해리포터와 마법사의 돌</td>
+                <td align="center"><img src="../images/harry potter and wizard's stone.jpg" width="150"></td>
+                <td><p>해리포터 세계를 영상으로 매력적으로 나타냈다.</p>후속작들은 책을 읽은 뒤 봐서 그런지 1편만큼의 감동을 받지 못해 아쉽다.</td>
+                <td align="center"><a href="https://ko.wikipedia.org/wiki/%ED%95%B4%EB%A6%AC_%ED%8F%AC%ED%84%B0%EC%99%80_%EB%A7%88%EB%B2%95%EC%82%AC%EC%9D%98_%EB%8F%8C" target="_blank">설명</a></td>
+            </tr>
+            <tr>
+                <td align="center">5</td>
+                <td align="center">미저리</td>
+                <td align="center"><img src="../images/misery.jpg" width="150"></td>
+                <td></p>충격적인 결말.</p>호불호가 갈릴 수 있지만 뻔하지 않아서 더욱 기억에 남는다.</td>
+                <td align="center"><a href="https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%A0%80%EB%A6%AC_(%EC%98%81%ED%99%94)" target="_blank">설명</a></td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <h2>방명록</h2>
+    <p>
+        이름 :  <input type="text" width="100%" id="visitorName"><br>
+        본인 취향 영화 (모두 선택해 주세요!)<br>
+        <input type="checkbox" name="movie">다크 나이트
+        <input type="checkbox" name="movie">신세계
+        <input type="checkbox" name="movie">세 얼간이
+        <input type="checkbox" name="movie">해리 포터와 마법사의 돌
+        <input type="checkbox" name="movie">미저리
+    </p>
+    <button type="button" id="register">등록</button>  <button type="reset" id="reset">취소</button>
+    <script src="../js/introduction.js"></script>
+</body>
+</html>
